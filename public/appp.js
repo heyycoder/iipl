@@ -27,10 +27,10 @@ function fetchAndVisualizeData() {
           }
       },
       title: {
-          text: 'Matches Played Per Year'
+          text: '1.Matches Played Per Year'
       },
       subtitle: {
-          text: 'Notice the difference between a 0 value and a null point'
+          text: ''
       },
       plotOptions: {
           column: {
@@ -147,10 +147,10 @@ function fetchandvisualizedata() {
         type: 'column'
     },
     title: {
-        text: 'Matches won by each Team'
+        text: '2.Matches won by each Team'
     },
     subtitle: {
-        text: 'Source: WorldClimate.com'
+        text: '<a href="https://www.iplt20.com/">IPL.COM</a>'
     },
     xAxis: {
         categories: [
@@ -265,7 +265,7 @@ function show_selected() {
               type: "column"
             },
             title: {
-              text: `Extra Runs Conceded By Each Team in ${season}`
+              text: `3. Extra Runs Conceded By Each Team in ${season}`
             },
             subtitle: {
               text:
@@ -324,10 +324,10 @@ function fetchANDvisualizedata() {
         type: 'column'
     },
     title: {
-        text: 'Top Economical Bowlers in 2015 season'
+        text: '4. Top Economical Bowlers in 2015 season'
     },
     subtitle: {
-        text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+        text: 'Source: <a href="https://www.iplt20.com/">Wikipedia</a>'
     },
     xAxis: {
         type: 'category',
@@ -466,7 +466,7 @@ function fetchVisualizeData() {
     yAxis: {
         min: 0,
         title: {
-            text: 'Total fruit consumption'
+            text: 'Number of Matches'
         }
     },
     legend: {

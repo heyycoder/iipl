@@ -1,9 +1,14 @@
 
 function extraruns(deliveries,matches){
-  var result={};
+
+  var ans={};
+  var arr=["2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"]
+ for(var k=0;k<arr.length;k++)
+ {
+   var result={};
   for(var i=0;i<matches.length;i++)
   {
-   if(matches[i].season=="2016")
+   if(matches[i].season==arr[k])
    {
      for(var j=0;j<deliveries.length;j++)
      {
@@ -20,8 +25,10 @@ function extraruns(deliveries,matches){
      }
     }
   }
-   } 
+   }
+   ans[arr[k]]=result;
+  } 
     // console.log(result);
-  return result;
+  return ans;
 }
 module.exports=extraruns;
